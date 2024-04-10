@@ -5,6 +5,17 @@ Este repositorio contiene dos ejemplos básicos de aplicaciones web creadas con 
 Ejemplo 1: Hola Mundo
 El primer ejemplo es una aplicación simple de "Hola Mundo". Cuando se accede a la ruta raíz ("/"), la aplicación devuelve un mensaje de "Hola Mundo" en HTML.
 
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return '<h1>Hello World!</h1>'
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
 Ejemplo 2: Ruta Dinámica
 El segundo ejemplo muestra cómo crear rutas dinámicas en Flask. En este caso, la aplicación devuelve un saludo personalizado a la ruta "/hola/".
 
