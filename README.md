@@ -1,4 +1,4 @@
-# Ejemplos-Flask---Leiva-Misari-Fabrizio
+# Ejemplos de uso de Flask
 Flask Python - Ejemplos Básicos
 Este repositorio contiene dos ejemplos básicos de aplicaciones web creadas con Flask, un microframework de Python.
 
